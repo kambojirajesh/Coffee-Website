@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffe website</title>
+    <link rel="stylesheet" href="coffe.css">
+</head>
+<body>
+    <div class="head">
+        <div class="head-left">
+            <h2>COFFE CAFEE</h2>
+        </div>
+
+        <div class="head-right">
+            <a class="a-element" href="#home-para">HOME</a>
+            <a class="a-element" href="#home-about">ABOUT</a>
+            <a class="a-element" href="#coffe-list">SHOP</a>
+            <a class="a-element" href="#orders">ORDER</a>
+            <a class="a-element" href="#contact">CONTACT US</a>
+        </div>
+
+        <div class="head-end">
+            <button class="b-element" id="contactId" onclick="contactUs()">CONTACT US</button>
+        </div>
+    </div>
+
+    <div class="home">
+        <h1 class="home-para" id="home-para">TIME TO DISCOVER COFFEE HOUSE</h1>
+        <p>The coffee is brewed by first roasting the green coffee beans over hot coals in brazier. given an opportunity to sample.</p>
+
+        <div class="home-buttons">
+            <button class="b-element1">TESTY COFFEE</button>
+            <button class="b-element2">LEARN MORE</button>
+        </div>
+
+        <div class="home-about" id="home-about">
+            <p>A coffeehouse, coffee shop, or café is an establishment that primarily serves various types of coffee, espresso, latte, and cappuccino. 
+                Some coffeehouses may serve cold drinks, such as iced coffee and iced tea, as well as other non-caffeinated beverages.
+                A compilation of all popular Coffee aggregated here for your convenience to shop from. The best deals on all Coffee brands in India assorted right here for you.
+                Most popular Coffee with price list, rating and reviews, top specs of the Coffee all right here for you to buy the best Coffee at the best price online. 
+                Pick from this selection of the best Coffee using filters to reach your best Coffee be it basis price, brand, types, features, flavour. Price comparisons feature comparisons and more such help available in a few clicks. 
+                So if its time to buy your next Coffee then use this best and popular Coffee list which contains of all brand Coffee price list in India that has 106 as on 26th Jun 2024. 
+                With all the Coffee now available online they are mostly available at different price points 
+                so make sure you do your valid latest Coffee price list and feature comparison before making a Coffee purchase online.
+            </p>
+        </div>
+
+        <div class="coffe-list" id="coffe-list">
+            <div class="coffe-card">
+                <img 
+                src="https://www.teaandcoffee.net/wp-content/uploads/Peets-Pumpkin-Oat-Foam-Cold-Brew-Pumpkin-Latte-1.jpg"
+                class="coffe-image">
+
+                <h2 class="coffe-name">Peets Coffee</h2>
+                <p class="coffe-price">Rs 600</p>
+
+            </div>
+
+            <div class="coffe-card">
+                <img 
+                src="https://bsmedia.business-standard.com/_media/bs/img/article/2016-12/07/full/1481130851-7484.jpg"
+                class="coffe-image">
+
+                <h2 class="coffe-name">Starbucks</h2>
+                <p class="coffe-price">Rs 500</p>
+            </div>
+
+            <div class="coffe-card">
+                <img src="https://www.tatanutrikorner.com/cdn/shop/products/6_fdf37c01-2114-4c16-8942-a052ba1f5a1a.jpg?v=1709815829"
+                class="coffe-image">
+                <h2 class="coffe-name">TATA COFFEE</h2>
+                <p class="coffe-price"> Rs 350</p>
+            </div>
+
+            <div class="coffe-card">
+                <img src="https://insanelygoodrecipes.com/wp-content/uploads/2023/06/Cup-of-Cappuccino-1024x1024.jpg" 
+                class="coffe-image">
+                <h2 class="coffe-name">Cappuccino</h2>
+                <p class="coffe-price"> Rs 450</p>
+            </div>
+
+            <div class="coffe-card">
+                <img src="https://gatherforbread.com/wp-content/uploads/2014/10/Dark-Chocolate-Mocha-Square.jpg" class="coffe-image">
+                <h2 class="coffe-name">Mochao</h2>
+                <p class="coffe-price"> Rs 650</p>
+            </div>
+        </div>
+
+        <div class="orders" id="orders">
+            <h1>ORDER A YOUR FAVOURITE ONE</h1>
+            <label for="fname">Enter Your Name:</label><br>
+            <input type="text" id="fname" name="fname">
+
+            <p>Choose Your Order:</p>
+            <form>
+                <input type="radio" id="Peets Coffee" name="order" value="Peets Coffee">
+                <label for="Peets Coffee">Peets Coffee</label><br>
+
+                <input type="radio" id="Starbucks" name="order" value="Starbucks">
+                <label for="Starbucks">Starbucks</label><br>
+
+                <input type="radio" id="TATA COFFEE" name="order" value="TATA COFFEE">
+                <label for="TATA COFFEE">TATA COFFEE</label><br>
+
+                <input type="radio" id="Cappuccino" name="order" value="Cappuccino">
+                <label for="Cappuccino">Cappuccino</label><br>
+
+                <input type="radio" id="Mochao" name="order" value="Mochao">
+                <label for="Mochao">Mochao</label><br>
+            </form>
+
+            <button class="order-button" id="order-button" onclick="order()">Order Now</button>
+            <P id="signIn"></P>
+        </div>
+
+        <div class="contact" id="contact">
+            <h1 class="con-h1">CONTACT US</h1>
+            <div class="contact-info">
+                <p> Rajesh Kamboji</p>
+                <p>+91 9988445566</p>
+                <p>coffee_choice123@gmail.com</p>
+            </div>
+
+    </div>
+
+    <script src="coffe.js"></script>
+
+</body>
+</html>
